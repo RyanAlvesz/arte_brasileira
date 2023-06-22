@@ -343,5 +343,10 @@ footer{
     .artista_nome{
         height: 30%;
     }
+
+    .artista:hover{
+        transform: scale(1);
+        cursor: pointer;
+    }
         
 }
