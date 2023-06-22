@@ -64,9 +64,10 @@ main{
 .principal{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 70vh;
+    height: auto;
     justify-items: center;
     align-items: center;
+    gap: 12px;
 }
 
 .principal__text{
@@ -238,6 +239,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .artista_nome a{
